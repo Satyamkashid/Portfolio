@@ -50,7 +50,30 @@ Portfolio/
 - ✅ Contact form with validation
 - ✅ Auto-generated API documentation
 
-## � Documentation
+## 📸 Screenshots
+
+### Home
+![Home Section](ScreenShots/home.png)
+
+### About
+![About Section](ScreenShots/about.png)
+
+### Resume
+![Resume Section](ScreenShots/resume.png)
+
+### Skills
+![Skills Section](ScreenShots/skills.png)
+
+### Projects
+![Projects Section](ScreenShots/projects.png)
+
+### Certifications
+![Certifications Section](ScreenShots/certifications.png)
+
+### Contact
+![Contact Section](ScreenShots/contact.png)
+
+## 📚 Documentation
 
 - [Backend README](backend/README.md)
 - [Frontend README](frontend/README.md)
