@@ -14,45 +14,41 @@ const Projects = () => {
 
                 <div className="project-cards">
                     <div className="project-card">
-                        <img src="/static/images/Automation.jpg" alt="Automation Project" className="project-image" />
+                        <img src="/static/images/smart_retrieval.png" alt="Smart Retrieval" className="project-image" />
                         <div className="project-details">
-                            <h3 className="project-title">Duplicate File Deletion with Auto Scheduled Email Log Reporting</h3>
+                            <h3 className="project-title">Smart File Retrieval System</h3>
                             <p className="project-description">
-                                This project focuses on automation, customization, transparency, and efficiency. It provides a robust
-                                solution for automated duplicate file deletion and management, ensuring streamlined operations and
-                                detailed reporting.
+                                Designed a smart retrieval system searching 400,000+ files (900 GB) using Azure AI Search
+                                and Durable Functions. Implemented parallel processing for 10+ file types and
+                                LLM-powered natural language queries.
                             </p>
-                            <a href="https://github.com/Satyamkashid/DeleteDuplicateFiles" target="_blank" rel="noopener noreferrer" className="project-link">
-                                View Project
-                            </a>
+                            <span className="project-tech">Python, FastAPI, Azure, GPT-4, LangChain</span>
                         </div>
                     </div>
 
                     <div className="project-card">
-                        <img src="/static/images/titanic.jpg" alt="Titanic Project" className="project-image" />
+                        <img src="/static/images/contract_query.png" alt="Contract Query" className="project-image" />
                         <div className="project-details">
-                            <h3 className="project-title">Titanic Dataset Analysis</h3>
+                            <h3 className="project-title">Contract Query Tool</h3>
                             <p className="project-description">
-                                A supervised machine learning project where I implemented logistic regression on the Titanic dataset
-                                to predict passenger survival. It showcases my skills in data cleaning, analysis, and model training.
+                                Built a multi-agent workflow using LangGraph for contract intelligence on 3,000+ contracts.
+                                Features SQL generation, semantic search, and automated field extraction with 95%+ accuracy
+                                using Azure Document Intelligence.
                             </p>
-                            <a href="https://github.com/Satyamkashid/TitanicCaseStudy" target="_blank" rel="noopener noreferrer" className="project-link">
-                                View Project
-                            </a>
+                            <span className="project-tech">GPT-4o, LangGraph, Azure OpenAI, PGVector</span>
                         </div>
                     </div>
 
                     <div className="project-card">
-                        <img src="/static/images/Automation.jpg" alt="REST API Project" className="project-image" />
+                        <img src="/static/images/doc_engine.png" alt="Doc Query Engine" className="project-image" />
                         <div className="project-details">
-                            <h3 className="project-title">REST API for AI Applications</h3>
+                            <h3 className="project-title">Smart Document Query Engine</h3>
                             <p className="project-description">
-                                Developed and deployed REST APIs that integrate Generative AI models with web applications. This
-                                project highlights my ability to build scalable and efficient backend services.
+                                Automated document ingestion pipeline with AWS S3 and Amazon Titan embeddings.
+                                Developed RESTful APIs with FastAPI and integrated LangChain for contextually
+                                accurate RAG-based responses.
                             </p>
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="project-link">
-                                View Project
-                            </a>
+                            <span className="project-tech">AWS, FastAPI, LangChain, RAG, Titan Embeddings</span>
                         </div>
                     </div>
                 </div>

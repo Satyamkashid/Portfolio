@@ -55,6 +55,25 @@
     transition: all 0.3s ease;
 }
 
+.resume-item {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    border-left: 4px solid #f1c40f;
+    /* Accent border */
+}
+
+.resume-item h4 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.resume-item p {
+    color: #ddd;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
     .resume-section {
         padding: 40px 15px;

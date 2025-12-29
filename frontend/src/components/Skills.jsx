@@ -9,33 +9,38 @@ const Skills = () => {
 
                 <div className="skills-grid">
                     <div className="skill-card">
-                        <h3>Programming Languages</h3>
-                        <p>Python, Data Science, Machine Learning, Generative AI</p>
+                        <h3>Programming Language</h3>
+                        <p>Python, SQL</p>
                     </div>
 
                     <div className="skill-card">
-                        <h3>Data Structures</h3>
-                        <p>Arrays, Linked Lists, Stacks, Queues</p>
+                        <h3>API & Backend</h3>
+                        <p>FastAPI, REST API, Async & Multi-threaded pipelines</p>
                     </div>
 
                     <div className="skill-card">
-                        <h3>Algorithms</h3>
-                        <p>Sorting, Searching</p>
+                        <h3>AI & ML Frameworks</h3>
+                        <p>LangChain, LangGraph, CrewAI, Transformers, BERT, LLaMA, Mistral, Neural Networks</p>
                     </div>
 
                     <div className="skill-card">
-                        <h3>Database & Backend</h3>
-                        <p>MySQL, Django, REST APIs</p>
+                        <h3>Cloud & Deployment</h3>
+                        <p>Azure (ACR, Container Apps, Foundry), Docker, Local LLM Deployment</p>
                     </div>
 
                     <div className="skill-card">
-                        <h3>Version Control & IDEs</h3>
-                        <p>Git, GitHub, GitLab, Visual Studio Code, Jupyter Notebook</p>
+                        <h3>NLP & LLM Tools</h3>
+                        <p>Prompt Engineering, Advanced RAG, Contextual Memory, PyTorch, TensorFlow, spaCy</p>
                     </div>
 
                     <div className="skill-card">
-                        <h3>Soft Skills</h3>
-                        <p>Collaboration, Communication, Planning, Teamwork, Time Management, Leadership</p>
+                        <h3>Vector DBs</h3>
+                        <p>PostgreSQL (PGVector), Neo4j, FAISS, ChromaDB, Pinecone</p>
+                    </div>
+
+                    <div className="skill-card">
+                        <h3>OCR & Doc Intelligence</h3>
+                        <p>Azure Document Intelligence, Dockling, EasyOCR</p>
                     </div>
                 </div>
             </div>

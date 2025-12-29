@@ -22,31 +22,42 @@ const Resume = () => {
                 <div className="resume-block">
                     <h3>Skills</h3>
                     <ul>
-                        <li>Programming Languages: Python, Data Science, Machine Learning, Generative AI</li>
-                        <li>Data Structures: Arrays, Linked Lists, Stacks, Queues</li>
-                        <li>Algorithms: Sorting, Searching</li>
-                        <li>Database & Backend: MySQL, Django, REST APIs</li>
-                        <li>Version Control: Git, GitHub, GitLab</li>
-                        <li>Soft Skills: Collaboration, Communication, Planning, Teamwork</li>
+                        <li><strong>Languages & Backend:</strong> Python, SQL, FastAPI, REST APIs, Async Pipelines</li>
+                        <li><strong>AI/ML:</strong> LangChain, LangGraph, CrewAI, Transformers, LLaMA, GPT-4o</li>
+                        <li><strong>Cloud & DevOps:</strong> Azure (ACR, Container Apps), Docker, AWS</li>
+                        <li><strong>Tools:</strong> PGVector, Neo4j, FAISS, Azure Document Intelligence, Dockling</li>
                     </ul>
                 </div>
 
                 {/* Work Experience Section */}
                 <div className="resume-block">
-                    <h3>Work Experience</h3>
-                    <ul>
-                        <li><strong>Python and Gen AI Intern</strong> - e-Zest an Accion Labs Company (Sept 2024 – Dec 2024)</li>
-                    </ul>
-                </div>
-
-                {/* Projects Section */}
-                <div className="resume-block">
-                    <h3>Projects</h3>
-                    <ul>
-                        <li><strong>Duplicate File Deletion with Auto Scheduled Email Log Reporting</strong> - Tech Stack: Python, Os, Hashlib, Scheduler, Email</li>
-                        <li><strong>Titanic Survival Predictor</strong> - Tech Stack: Python, Pandas, Matplotlib, Scikit-Learn, Logistic Regression</li>
-                        <li><strong>Auto Scheduled Process Logger</strong> - Tech Stack: Python, psutil Library, Scheduler, Email</li>
-                    </ul>
+                    <h3>Relevant Work Experience</h3>
+                    <div className="resume-item">
+                        <h4>Project #1 – Smart File Retrieval System (April 2025 – Sep 2025)</h4>
+                        <p><strong>Tech:</strong> Python, FastAPI, Azure (Search, Functions, Doc Intelligence), OpenAI GPT-4.1 Mini, LangChain</p>
+                        <ul>
+                            <li>Designed smart retrieval for 400,000+ files using Azure AI Search and Durable Functions.</li>
+                            <li>Integrated Azure Document Intelligence for parsing 10+ file formats.</li>
+                            <li>Built LLM-powered natural language query system with SSO authentication.</li>
+                        </ul>
+                    </div>
+                    <div className="resume-item">
+                        <h4>Project #2 – Contract Query Tool (Jan 2025 – May 2025)</h4>
+                        <p><strong>Tech:</strong> GPT-4o, LangGraph, Azure OpenAI, PGVector, FAISS</p>
+                        <ul>
+                            <li>Built multi-agent workflow using LangGraph for contract intelligence on 3,000+ contracts.</li>
+                            <li>Automated boolean/SQL query generation and semantic search with 95% accuracy.</li>
+                            <li>Optimized prompt engineering and implemented cost tracking.</li>
+                        </ul>
+                    </div>
+                    <div className="resume-item">
+                        <h4>Project #3 – Smart Document Query Engine (Jan 2025 – March 2025)</h4>
+                        <p><strong>Tech:</strong> FastAPI, AWS S3, Titan Embeddings, LangChain, RAG</p>
+                        <ul>
+                            <li>Developed automated document ingestion pipeline from AWS S3.</li>
+                            <li>Built RESTful APIs for query handling and multilingual RAG responses.</li>
+                        </ul>
+                    </div>
                 </div>
 
                 {/* Highlights Section */}

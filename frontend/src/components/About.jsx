@@ -10,38 +10,37 @@ const About = () => {
                     <div className="left">
                         <h3>Hello, I'm Satyam</h3>
                         <p>
-                            I'm a Python Generative AI Developer with hands-on experience in creating advanced AI applications.
-                            I've focused on building intelligent systems using Generative AI, Django, and REST APIs. My journey
-                            began with a passion for data science, machine learning, and automation, and it has since evolved
-                            into crafting innovative solutions that combine AI with real-world applications.
+                            1+ years of experience in advanced Generative AI, NLP, and multi-agent solutions across healthcare, 
+                            telecom, and contract intelligence domains. Expert in production-ready AI applications using GPT-4o, 
+                            LLaMA, Mistral, and Hugging Face Transformers with LangChain, LangGraph, and FAISS/PGVector.
                         </p>
                         <p>
-                            In addition to my technical skills, I am always eager to learn new technologies, challenge myself,
-                            and push the boundaries of what AI can achieve. My expertise includes:
+                            Specialized in agentic workflows, RAG systems, and OCR-driven document intelligence pipelines using 
+                            Azure Document Intelligence, Dockling, and EasyOCR. Skilled in designing asynchronous and multi-threaded 
+                            data pipelines, prompt engineering, and cost-optimized LLM deployments.
                         </p>
                         <ul>
-                            <li>Building and deploying Generative AI models</li>
-                            <li>Creating REST APIs for AI-based applications</li>
-                            <li>Data analysis and visualization with Python libraries (Pandas, Matplotlib, Seaborn)</li>
-                            <li>Machine learning algorithms (Logistic Regression, Decision Trees, etc.)</li>
-                            <li>Working with cloud platforms for AI deployments</li>
+                            <li>Advanced Generative AI & NLP Agentic Solutions</li>
+                            <li>RAG Systems & Vector Databases (FAISS, ChromaDB, PGVector)</li>
+                            <li>OCR & Document Intelligence (Azure DI, Dockling)</li>
+                            <li>Backend Development (FastAPI, Python, Postgres, Neo4j)</li>
+                            <li>Cloud Integrations (Azure, AWS) & Cost Optimization</li>
                         </ul>
                     </div>
                     <div className="right">
-                        <h3>Professional Journey</h3>
+                        <h3>Professional Highlights</h3>
                         <ul>
-                            <li>Developed a Python Automation project for deleting duplicate files with scheduled email log reporting.</li>
-                            <li>Implemented machine learning models using logistic regression on Titanic dataset for supervised learning projects.</li>
-                            <li>Contributed to open-source AI projects and collaborated on developing REST APIs for AI solutions.</li>
-                            <li>Worked on projects involving data cleaning, analysis, and automation using Python scripts.</li>
-                            <li>Worked on different Machine Learning Algorithms like Linear Regression, Logistic Regression, Decision Trees, Random Forest, K-Nearest Neighbors and K Means Clustering.</li>
+                            <li>Strong collaborator with proven impact in improving system efficiency, accuracy, and scalability.</li>
+                            <li>Track record of recognition for high performance and innovation in AI/ML domains.</li>
+                            <li>Hands-on experience with deployment and optimization of large language models.</li>
+                            <li>Expertise in building scalable retrieval and reasoning pipelines.</li>
                         </ul>
 
                         <h3>Future Goals</h3>
                         <p>
-                            In the future, I aim to deepen my expertise in AI and machine learning, especially in the areas of
-                            natural language processing and deep learning. I also plan to collaborate on more real-world projects
-                            that leverage AI to solve complex problems across various industries.
+                            I aim to continue driving innovation in Generative AI, solving complex real-world problems through 
+                            agentic workflows and advanced RAG architectures. I am eager to tackle challenges in scalability 
+                            and efficiency for next-generation AI applications.
                         </p>
                     </div>
                 </div>
